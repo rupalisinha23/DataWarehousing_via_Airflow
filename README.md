@@ -20,7 +20,7 @@ Below are the steps to run: <br><br>
 ```
 $ python aws/aws_starter --action create
 ```
-STEP 3: Run below command to execute Airflow code:
+<b>STEP 3: </b> Run below command to execute Airflow code:
 ```
 $ /opt/airflow/start.sh
 ```
@@ -55,7 +55,7 @@ Under Connections, select Create.
 
 <b>STEP 5: </b> Trigger the dag and monitor the tasks.
 
-<b>STEP4: </b> Once, the dag execution is complete, run below command to close the Redshift cluster:
+<b>STEP 4: </b> Once, the dag execution is complete, run below command to close the Redshift cluster:
 ```
 $ python aws/aws_starter --action delete
 
