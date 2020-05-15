@@ -19,6 +19,7 @@ class LoadDimensionOperator(BaseOperator):
         self.redshift_conn_id = redshift_conn_id
         self.table = table
         self.sql_stmt = sql_stmt
+        self.mode = mode
         
 
     def execute(self, context):
